@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "DotNetCosmosDb": {
+      "commandName": "Project",
+      "commandLineArgs": "-a:https://{vaultName}}.vault.azure.net/ -q:\"SELECT * FROM c where c.Book ='Moby'\" del"
+    }
+  }
+}
